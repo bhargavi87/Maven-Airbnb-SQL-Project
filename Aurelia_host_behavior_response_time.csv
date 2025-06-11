@@ -1,0 +1,12 @@
+neighbourhood,host_is_superhost,host_response_time,num_listings
+"XIII Aurelia",t,,45
+"XIII Aurelia",f,,31
+"XIII Aurelia",f,"within a few hours",16
+"XIII Aurelia",f,"within an hour",41
+"XIII Aurelia",t,"within a day",10
+"XIII Aurelia",t,"within an hour",92
+"XIII Aurelia",t,"within a few hours",21
+"XIII Aurelia",t,"a few days or more",1
+"XIII Aurelia",f,"within a day",16
+"XIII Aurelia",f,"a few days or more",8
+"XIII Aurelia",,,3

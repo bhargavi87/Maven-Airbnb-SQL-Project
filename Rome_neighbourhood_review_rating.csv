@@ -1,0 +1,16 @@
+city,room_type,property_type,neighbourhood,num_listing,people_canStay,avg_room_price,total_reviews,Avg_Review_rating
+Rome,"Entire place","Entire apartment","I Centro Storico",8510,4.6911,147.56851233842605,254015,79.7499
+Rome,"Entire place","Entire apartment","II Parioli/Nomentano",940,4.5074,124.1314468085108,17013,73.1287
+Rome,"Entire place","Entire apartment","III Monte Sacro",184,4.0707,82.89782608695647,1906,74.9402
+Rome,"Entire place","Entire apartment","IV Tiburtina",171,4.7368,91.31333333333335,2588,70.5146
+Rome,"Entire place","Entire apartment","IX Eur",138,3.8478,87.07782608695653,817,60.3551
+Rome,"Entire place","Entire apartment","V Prenestino/Centocelle",439,3.6674,65.00077448747152,8716,77.2392
+Rome,"Entire place","Entire apartment","VI Roma delle Torri",72,3.7361,80.51249999999996,404,70.0694
+Rome,"Entire place","Entire apartment","VII San Giovanni/Cinecitta",974,4.5154,93.10195071868581,21397,76.2402
+Rome,"Entire place","Entire apartment","VIII Appia Antica",350,4.3571,83.5848,6660,78.6857
+Rome,"Entire place","Entire apartment","X Ostia/Acilia",314,4.2548,82.22159235668789,2707,78.0860
+Rome,"Entire place","Entire apartment","XI Arvalia/Portuense",233,4.1717,96.71407725321878,3123,78.6309
+Rome,"Entire place","Entire apartment","XII Monte Verde",716,4.3520,109.18047486033537,12963,77.1732
+Rome,"Entire place","Entire apartment","XIII Aurelia",929,4.8977,125.45276641550052,23575,80.2992
+Rome,"Entire place","Entire apartment","XIV Monte Mario",276,4.2826,94.1986956521739,3338,75.3297
+Rome,"Entire place","Entire apartment","XV Cassia/Flaminia",199,3.6784,99.12271356783924,1087,56.6482
