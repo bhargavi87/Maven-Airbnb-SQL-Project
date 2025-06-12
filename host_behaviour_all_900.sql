@@ -38,6 +38,7 @@ review_scores_value,
  count(a.listing_id) as num_listings,
 
  100*Sum(case when host_identity_verified= 't' then 1 else 0 end)/ count(a.listing_id) as percentage_host_verified,
+ 100*Sum(case when host_has_profile_pic= 't' then 1 else 0 end)/ count(a.listing_id) as percentage_host_has_pic,
  sum(case when host_response_time= 'a few days or more' then 1 else 0 end ) as avg_host_response_time,
  avg(host_response_rate) as avg_host_response_rate,
  avg(host_acceptance_rate) as avg_host_acceptance_rate,
@@ -49,6 +50,7 @@ review_scores_value,
   avg(Review_scores_accuracy) as overall_accuracy_rating,
   avg(Review_scores_cleanliness) as overall_cleanliness_rating,
   avg(Review_scores_communication) as overall_communication_rating,
+  avg(Review_scores_checkin) as overall_checkin_rating,
   avg(Review_scores_value) as overall_value_rating
  from
  Listing_review_count_room a
@@ -63,6 +65,7 @@ review_scores_value,
  count(a.listing_id) as num_listings,
 
  100*Sum(case when host_identity_verified= 't' then 1 else 0 end)/ count(a.listing_id) as percentage_host_verified,
+ 100*Sum(case when host_has_profile_pic= 't' then 1 else 0 end)/ count(a.listing_id) as percentage_host_has_pic,
  sum(case when host_response_time= 'a few days or more' then 1 else 0 end) as avg_host_response_time,
  avg(host_response_rate) as avg_host_response_rate,
  avg(host_acceptance_rate) as avg_host_acceptance_rate,
@@ -73,6 +76,7 @@ review_scores_value,
   avg(Review_scores_accuracy) as overall_accuracy_rating,
   avg(Review_scores_cleanliness) as overall_cleanliness_rating,
   avg(Review_scores_communication) as overall_communication_rating,
+  avg(Review_scores_checkin) as overall_checkin_rating,
   avg(Review_scores_value) as overall_value_rating
  from
  Listing_review_count_room a
